@@ -9,8 +9,7 @@ ul,ul li{list-style: none;}
     text-align: center;
 }
 .divide-line{
-    margin: 10px 0;
-    border:2px dashed #000000;
+    border:4px dashed #0f0f0f;
 }
 .white-line{
     border-color: #FFFFFF;
@@ -54,9 +53,38 @@ ul,ul li{list-style: none;}
 }
 
 /*first page*/
+.ams-header{
+
+}
 .header-img{
     width: 40%;
+}
+.ams-header .ams-cricle{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    right: 10%;
+    top: 10%;
+}
+.count-down{
+
+}
+.count-down li{
+    display: inline-block;
+    font-size: 0;
+    background: #EEEEEE;
+    padding: 20px 10px;
+    margin: 15px;
+    width: 180px;
+}
+.count-down li p{
+    border-bottom: 2px solid #999999;
+    padding: 10px;
+    width: 75%;
     margin: auto;
+}
+.count-down li div{
+    padding: 10px 0;
 }
 
 /*second page*/

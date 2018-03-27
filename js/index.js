@@ -1,6 +1,6 @@
 window.onload = function(){
     $(".loading").hide();
-    initMap();
+    // initMap();
 };
 
 $(function(){
@@ -9,6 +9,19 @@ $(function(){
         return false;
     });
 });
+
+var deadline = new Date("2018/03/29 09:30:00 GMT-0800(CST)");
+
+var now = new Date();
+if (deadline > now) { setInterval(timeShow, 1000); }
+
+function timeShow() {
+    var counttime = new CountTime(deadline);
+    $("#dayCount").html(counttime.fomate(counttime.day()));
+    $("#hourCount").html(counttime.fomate(counttime.hour()));
+    $("#minCount").html(counttime.fomate(counttime.minute()));
+    $("#secCount").html(counttime.fomate(counttime.second()));
+}
 
 function initMap() {
     var uluru = { lat: 37.7819117000, lng: -122.4046539000 };
