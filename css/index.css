@@ -1,0 +1,216 @@
+html,body{font-family: Poppins;overflow-x: hidden;}
+body{padding-top: 120px;}
+ul,ul li{list-style: none;}
+
+/*common*/
+.ams-container{
+    padding: 120px 0;
+    position: relative;
+    text-align: center;
+}
+.divide-line{
+    margin: 10px 0;
+    border:2px dashed #000000;
+}
+.white-line{
+    border-color: #FFFFFF;
+}
+.green-line{
+    border-color: #3AAF4B;
+}
+.ams-cricle{
+    position: relative;
+    max-width: 330px;
+    min-height: 200px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.red-cricle{
+    background-image: url("../images/redbg.svg");
+}
+.green-cricle{
+    background-image: url("../images/greenbg.svg");
+}
+.ams-dot{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 0;
+    right: 0;
+}
+.ams-dot img{
+    width: inherit;
+    height: inherit;
+}
+
+.ams-white-back{
+    background: url("../images/grayline.svg") no-repeat right;
+    background-image: url("../images/titleline.svg"),url("../images/grayline.svg");
+    background-repeat: no-repeat;
+    background-position: left top,right bottom;
+}
+
+/*first page*/
+.header-img{
+    width: 40%;
+    margin: auto;
+}
+
+/*second page*/
+.ams-container.ams-about{
+    background: url("../images/aboutbg.jpg") no-repeat;
+    background-position:top center;
+    background-size:cover;
+}
+.about-content{
+    margin: auto;
+    background: #231F20;
+    width: 55%;
+    padding: 50px 90px 100px;
+    color: #FFFFFF;
+}
+
+/*third page*/
+.ams-container.ams-agenda {
+    margin: auto;
+    background: #282425;
+    background-image: url("../images/grayline.svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.ams-agenda .f-xl{
+    color: #FFFFFF;
+}
+.agenda-content{
+    width: 80%;
+    text-align: left;
+}
+.ams-agenda .green-cricle{
+    margin-bottom: -100px;
+}
+.frist-day .ams-dot{
+    left: 0;
+}
+.agenda-list{
+}
+.agenda-list{
+    padding: 150px 50px 80px 40px;
+    list-style: none;
+    display: table;
+    width: 100%;
+}
+.agenda-list li{
+    display: table-row;
+}
+.agenda-list li span{
+    display: table-cell;
+    padding: 8px 10px;
+    border-left: 15px solid #FFFFFF;
+}
+.agenda-time{
+    display: inline-block;
+    border-right: 4px solid #7DCA3B;
+}
+.agenda-intro i{
+    display: inline-block;
+    min-width: 180px;
+    font-style: normal;
+}
+.sec-day{
+    width: 50%;
+}
+.sec-day .agenda-time{
+    width: 150px;
+}
+
+/*four page*/
+.ams-ticket{
+    background-image: url("../images/grayline2.svg");
+    background-repeat: no-repeat;
+}
+.ams-ticket .red-cricle{
+    position: absolute;
+    width: 33%;
+    height: 210px;
+    right: 10%;
+    top: 20%;
+}
+
+.ticket-content img{
+    width: 60%;
+}
+
+/*five page*/
+.hosts-content li{
+    display: inline-block;
+    margin: 20px;
+    background: #CCC;
+    height: 200px;
+    width: 200px;
+}
+
+/*six page*/
+.ams-location{
+    background-image: url("../images/grayline.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+/*contact*/
+.ams-contact a{
+    color: #FFFFFF;
+}
+.ams-contact a:hover{
+    color: #EEEEEE;
+}
+.ams-contact img {
+    width: 80%;
+}
+
+
+@keyframes switcher1 {
+    0% {
+        transform: translate3d(20px, 0px, 0px);
+    }
+    5% {
+        transform: translate3d(20px, 0px, 0px);
+    }
+    45% {
+        transform: translate3d(35px, 0px, 0px);
+    }
+    55% {
+        transform: translate3d(35px, 0px, 0px);
+    }
+    95% {
+        transform: translate3d(20px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(20px, 0px, 0px);
+    }
+}
+
+@keyframes switcher2 {
+    0% {
+        transform: translate3d(10px, 0px, 0px);
+    }
+    5% {
+        transform: translate3d(10px, 0px, 0px);
+    }
+    45% {
+        transform: translate3d(30px, 0px, 0px);
+    }
+    55% {
+        transform: translate3d(30px, 0px, 0px);
+    }
+    95% {
+        transform: translate3d(10px, 0px, 0px);
+    }
+    100% {
+        transform: translate3d(10px, 0px, 0px);
+    }
+}
+
