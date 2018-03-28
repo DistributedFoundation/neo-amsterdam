@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Light.ttf');
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Medium.ttf');
+    font-weight: normal;
+}
+
 html,body{font-family: Poppins;overflow-x: hidden;}
 body{padding-top: 80px;}
 ul,ul li{list-style: none;padding: 0;}
