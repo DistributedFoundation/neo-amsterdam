@@ -26,13 +26,21 @@
     </div>
 </div>
 
-<nav class="nav-bar dark-back navbar-fixed-top" id="navBar">
+<div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <div class="navbar-img">
-            <a href="/"><img src="images/whiteneo.svg"></a>
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://neo.org">
+                <img src="images/whiteneo.svg">
+            </a>
         </div>
-        <div class="navbar-page">
-            <ul class="navbar-block">
+        <div class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right f-xs">
                 <li><a href="#about">About</a></li>
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#tickets">Tickets</a></li>
@@ -42,7 +50,7 @@
             </ul>
         </div>
     </div>
-</nav>
+</div>
 
 <div class="ams-container ams-white-back ams-header">
     <div class="container">
@@ -69,14 +77,18 @@
                     <div class="f-s">SECONDS</div>
                 </li>
             </ul>
-            <div class="m-l divide-line"></div>
-            <div class="ams-cricle red-cricle">
-                <div class="horizontal-center p-s">
-                    <span class="f-s bold-font lh-l">14th - 15th<br>April</span>
-                </div>
-                <div class="ams-dot"><img src="images/reddot.svg"></div>
-            </div>
         </div>
+    </div>
+    <div class="ams-cricle red-cricle">
+        <div class="horizontal-center p-s">
+            <span class="f-s bold-font lh-l">14th - 15th<br>April</span>
+        </div>
+        <div class="ams-dot"><img src="images/reddot.svg"></div>
+    </div>
+    <div class="bg-animate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
+            <line class="svg-line dark-line" x1="30%" y1="90%" x2="100%" y2="90%"></line>
+        </svg>
     </div>
 </div>
 
@@ -84,7 +96,7 @@
     <div class="container">
         <div class="about-content">
             <p class="f-xl bolder-font m-m">About</p>
-            <div class="divide-line white-line"></div>
+            <div class="divide-line m-m white-line"></div>
             <p class="f-s m-m lh-l light-font">
                 New speakers. Exclusive previews. New project announcements.<br><br>
                 One of Amsterdam's most luxury theaters.<br>
@@ -97,73 +109,99 @@
 
 <div class="ams-container ams-agenda" id="agenda">
     <div class="container">
-        <p class="f-xl bolder-font white-font">Agenda</p>
-        <div class="agenda-content m-xl p-m frist-day">
-            <div class="ams-cricle green-cricle">
-                <div class="ams-dot"><img src="images/greendot.svg"></div>
-                <div class="horizontal-center lh-l">
-                    <span class="f-m bolder-font">Day 1</span><br>
-                    <span class="f-s bold-font">CONFERENCE</span>
+        <div class="agenda-content">
+            <p class="f-xl bolder-font white-font">Agenda</p>
+            <div class="m-l frist-day">
+                <div class="ams-cricle green-cricle">
+                    <div class="ams-dot"><img src="images/greendot.svg"></div>
+                    <div class="horizontal-center lh-l">
+                        <span class="f-m bolder-font">Day 1</span><br>
+                        <span class="f-s bold-font">CONFERENCE</span>
+                    </div>
+                </div>
+                <ul class="white-back f-xs lh-s agenda-list">
+                    <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>Organization DLM setting up location</span></li>
+                    <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>Setting up Technical+Streamer</span></li>
+                    <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="green-back">LUNCH</li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
+                    <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
+                    <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
+                </ul>
+            </div>
+            <div class="m-xl sec-day">
+                <div class="ams-cricle green-cricle">
+                    <div class="ams-dot"><img src="images/greendot.svg"></div>
+                    <div class="horizontal-center lh-l">
+                        <span class="f-m bolder-font">Day 2</span><br>
+                        <span class="f-s bold-font">CONFERENCE</span>
+                    </div>
+                </div>
+                <ul class="white-back f-xs lh-s agenda-list">
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Registration and breakfast</span></li>
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Workshop</span></li>
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Start coding</span></li>
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Lunch</span></li>
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Dinner buffet</span></li>
+                    <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Submit and drinks</span></li>
+                </ul>
+                <div class="over-hi m-l white-font text-center">
+                    <a class="button green-back f-s bolder-font" href="images/AMSTERDAM_AGENDA.png"><span>MORE</span> <span>INFORMATION</span></a>
                 </div>
             </div>
-            <ul class="white-back f-xs lh-s agenda-list">
-                <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>Organization DLM setting up location</span></li>
-                <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>Setting up Technical+Streamer</span></li>
-                <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="green-back">LUNCH</li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li><span class="bolder-font agenda-time">08.00-10.00</span><span class="agenda-intro"><i>NEO</i> Da Hongfei</span></li>
-                <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
-                <li class="bolder-font"><span class="agenda-time">08.00-10.00</span><span>RECEIVING GUESTS</span></li>
-            </ul>
         </div>
-        <div class="agenda-content m-xl sec-day">
-            <div class="ams-cricle green-cricle">
-                <div class="ams-dot"><img src="images/greendot.svg"></div>
-                <div class="horizontal-center lh-l">
-                    <span class="f-m bolder-font">Day 2</span><br>
-                    <span class="f-s bold-font">CONFERENCE</span>
-                </div>
-            </div>
-            <ul class="white-back f-xs lh-s agenda-list">
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Registration and breakfast</span></li>
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Workshop</span></li>
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Start coding</span></li>
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Lunch</span></li>
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Dinner buffet</span></li>
-                <li><span class="bolder-font agenda-time">08.00</span><span class="agenda-intro">Submit and drinks</span></li>
-            </ul>
-        </div>
+    </div>
+    <div class="bg-animate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
+            <line class="svg-line" x1="0%" y1="10%" x2="46%" y2="10%"></line>
+            <line class="svg-line green-line fast-line" x1="36%" y1="12%" x2="100%" y2="12%"></line>
+            <line class="svg-line green-line slow-line" x1="50%" y1="65%" x2="100%" y2="65%"></line>
+        </svg>
     </div>
 </div>
 
 <div class="ams-container ams-ticket blue-back" id="tickets">
     <div class="container">
-        <p class="f-xl bolder-font white-font">Tickets</p>
         <div class="ticket-content">
-           <div class="ams-cricle red-cricle">
-                <div class="horizontal-center lh-l">
-                    <span class="f-m bold-font">Early Brid</span><br>
-                    <span class="f-m bold-font">€37.5</span>
-                </div>
+            <p class="f-xl bolder-font white-font">Tickets</p>
+            <div class="buy-ticket m-xl">
+                <!-- iframe here-->
+                <img class="m-m" src="images/ticket.png">
             </div>
-            <img class="m-m" src="images/ticket.png">
         </div>
+        <div class="over-hi m-l text-center">
+            <a class="button red-back f-s bolder-font" href="#"><span>BUY</span> <span>TICKETS</span></a>
+        </div>
+    </div>
+    <div class="ams-cricle red-cricle">
+        <div class="horizontal-center lh-l">
+            <span class="f-m bold-font">Early Brid</span><br>
+            <span class="f-m bold-font">€37.5</span>
+        </div>
+    </div>
+    <div class="bg-animate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
+            <line class="svg-line fast-line op-80" x1="28%" y1="22%" x2="100%" y2="22%"></line>
+            <line class="svg-line" x1="36%" y1="25%" x2="100%" y2="25%"></line>
+            <line class="svg-line slow-line" x1="50%" y1="65%" x2="100%" y2="65%"></line>
+            <line class="svg-line" x1="0%" y1="90%" x2="26%" y2="90%"></line>
+        </svg>
     </div>
 </div>
 
@@ -171,11 +209,32 @@
     <div class="container">
         <p class="f-xl m-m bolder-font">Hosts</p>
         <div class="hosts-content">
-            <ul class="m-l"><li></li><li></li><li></li></ul>
+            <ul class="m-l">
+                <li></li>
+                <li></li>
+            </ul>
             <p class="f-l bolder-font m-s">Supported by</p>
-            <ul class="m-l"><li></li><li></li><li></li></ul>
-            <p class="f-l bolder-font m-s">Organized by</p>
+            <ul class="m-l">
+                <li></li>
+                <li></li>
+            </ul>
+            <p class="f-l bolder-font m-s">Supported by</p>
+            <ul class="m-l">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
+    </div>
+    <div class="bg-animate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
+            <line class="svg-line dark-line slow-line" x1="50%" y1="20%" x2="100%" y2="20%"></line>
+            <line class="svg-line dark-line fast-line" x1="0%" y1="65%" x2="28%" y2="65%"></line>
+        </svg>
     </div>
 </div>
 
@@ -183,24 +242,33 @@
     <div class="container">
         <p class="f-xl bolder-font white-font">Location</p>
         <div class="location-content">
-            <p class="f-s m-l lh-l bold-font">DeLaMar - Wim Zonneveldzaal<br>Marnixstraat 402<br>1071 DR Amsterdam<br>The Netherlands<br></p>
-            <div class="m-m" id="map"></div>
+            <p class="f-s m-l lh-l bold-font">DeLaMar - Wim Sonneveld Zaal<br>Marnixstraat 402<br>1071 DR Amsterdam<br>The Netherlands<br></p>
+            <div class="m-xl map-area" id="map">
+                <img src="images/map.jpg" />
+            </div>
         </div>
+    </div>
+    <div class="bg-animate">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" version="1.1">
+            <line class="svg-line slow-line" x1="36%" y1="36%" x2="100%" y2="36%"></line>
+            <line class="svg-line slow-line" x1="85%" y1="95%" x2="100%" y2="95%"></line>
+        </svg>
     </div>
 </div>
 
 <div class="ams-container ams-contact dark-back" id="contact">
     <div class="container">
-        <div class="col-md-8 text-left">
-            <p class="f-xl bolder-font white-font">Contact</p>
-            <p class="f-m"><a class="white-font" href="mailto:contact@neo.org">Email: neo.meetup.amsterdam@gmail.com</a></p>
-        </div>
-        <div class="col-md-4 text-right">
-            <a href="/"><img src="images/whiteneo.svg"></a>
+        <div class="row">
+            <div class="col-sm-8 m-m text-left">
+                <p class="f-xl bolder-font white-font">Contact</p>
+                <p class="f-s"><a class="white-font light-font" href="mailto:contact@neo.org">Email: neo.meetup.amsterdam@gmail.com</a></p>
+            </div>
+            <div class="col-sm-4 m-m text-left">
+                <a href="https://neo.org"><img src="images/whiteneo.svg"></a>
+            </div>
         </div>
     </div>
 </div>
-<!--<div class="hover-border"><a>hover查看效果</a></div>-->
 
 <script type="text/javascript" src="common/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="common/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
