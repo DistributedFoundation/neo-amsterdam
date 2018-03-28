@@ -19,6 +19,23 @@ html,body{font-family: Poppins;overflow-x: hidden;}
 body{padding-top: 80px;}
 ul,ul li{list-style: none;padding: 0;}
 
+.logo{
+    width:100%;
+    max-width:400px;
+}
+
+.logo-df{
+    max-width:475px;
+}
+
+.logo-neo{
+    max-width: 400px;
+}
+
+.logo-nos{
+    max-height:175px;
+}
+
 /*common*/
 .container{
     position: relative;
