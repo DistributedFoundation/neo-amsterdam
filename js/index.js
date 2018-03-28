@@ -1,6 +1,5 @@
 window.onload = function(){
     $(".loading").hide();
-    // initMap();
 };
 
 $(function(){
@@ -10,7 +9,7 @@ $(function(){
     });
 });
 
-var deadline = new Date("2018/03/29 09:30:00 GMT-0800(CST)");
+var deadline = new Date("2018/04/14 08:00:00 GMT-0000(CST)");
 
 var now = new Date();
 if (deadline > now) { setInterval(timeShow, 1000); }
@@ -25,9 +24,10 @@ function timeShow() {
 
 function initMap() {
     var uluru = { lat: 52.364302, lng: 4.8786986 };
-    document.getElementById('map').style.height = "500px";
+    document.getElementById('map').style.maxHeight = "500px";
+    document.getElementById('map').style.height = "300px";
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
+        zoom: 14,
         center: uluru
     });
     var marker = new google.maps.Marker({

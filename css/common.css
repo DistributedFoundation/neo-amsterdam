@@ -157,10 +157,6 @@ a{word-break: break-all;}
     font-family:"Poppins-Bloder";
     src:url("../font/Poppins-Bold.ttf");
 }
-@font-face {
-    font-family:"ShareTechMono";
-    src:url("../font/ShareTechMono-Regular.ttf");
-}
 
 /*loading*/
 .loading {
